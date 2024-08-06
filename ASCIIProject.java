@@ -103,20 +103,6 @@ public class ASCIIProject{
 
         image.setRGB(0, 0, width, height, pixels, 0, width);
         Scanner in = new Scanner(System.in);
-        // System.out.print("Where do you want your file to be stored? (current dir if blank): ");
-        // String directory = in.nextLine().trim();
-
-
-        // if (directory.isEmpty()) {
-        // //     directory = System.getProperty("user.dir");
-        //     System.out.println("Your file will be saved in: " + directory);
-        // } else {
-        //     File dir = new File(directory);
-            // if (!dir.exists() || !dir.isDirectory()) {
-            //     System.out.println("Invalid directory. Exiting.");
-                // return;
-            // }
-        // }
 
         System.out.print("\nName your file (omit extensions): ");
         filename = in.nextLine();
